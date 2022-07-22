@@ -5,7 +5,7 @@
         "@bazel/rollup": "^5.0.2",
         "@bazel/terser": "^5.0.2",
         "rollup": "2.3.0",
-        "terser": "4.3.1"
+        "terser": "4.8.1"
     },
     "scripts": {
         "test": "bazel test ..."
