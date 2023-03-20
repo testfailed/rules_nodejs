@@ -76,10 +76,10 @@ def build_bazel_rules_nodejs_dev_dependencies():
     maybe(
         http_archive,
         name = "io_bazel_stardoc",
-        sha256 = "d681269c40a368c6eb7e9eccfee44a9919d22f84f80e331e41e74bdf99a3108e",
-        strip_prefix = "stardoc-8f6d22452d088b49b13ba2c224af69ccc8ccbc90",
+        sha256 = "b9b57f1c47e5886382eb0d41341ddef3a5a104e487cc04655d56424e49aa33ad",
+        strip_prefix = "stardoc-2ce2df8ff305cc6161206359ef0a424cea7df83c",
         urls = [
-            "https://github.com/bazelbuild/stardoc/archive/8f6d22452d088b49b13ba2c224af69ccc8ccbc90.tar.gz",
+            "https://github.com/bazelbuild/stardoc/archive/2ce2df8ff305cc6161206359ef0a424cea7df83c.tar.gz",
         ],
     )
 
